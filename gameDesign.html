@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>devGINU</title>
+	<meta charset ="UTF-8">
+	<meta name="author" content="Ginushanth Suriyakumaran">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="portfolio">
+	<meta name="keywords" content="ginu,Ginushanth, Ginushanth Suriyakumaran, Ginu Suriyakumaran">
+	 <link rel="stylesheet" href="css/gameDesign.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	 <script src="scripting/gameDesign.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body onload="drawHome(false)" onresize="drawHome(true)">
+	<div id="home">
+		<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+		<button class="button-home" type="button" style="background-image: url('img/button.jpg')" id="about-me-button" onmouseover="buttonEnter(this)" onmouseleave="buttonLeave(this)">About me</button>
+		<button class="button-home" type="button" style="background-image: url('img/button.jpg')" id="contact-info-button" onmouseover="buttonEnter(this)" onmouseleave="buttonLeave(this)">Contact Info</button>
+		<button class="button-home" type="button" style="background-image: url('img/button.jpg')" id="work-experience-button" onmouseover="buttonEnter(this)" onmouseleave="buttonLeave(this)">
+			Work Experience
+		</button>
+		<button class="button-home" type="button" style="background-image: url('img/button.jpg')" id="offer-button" onmouseover="buttonEnter(this)" onmouseleave="buttonLeave(this)">What I offer</button>
+		<div id="logo" style="background-image: url('img/logo-small.png')"></div>
+</body>
+
+
+</html>

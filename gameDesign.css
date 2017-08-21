@@ -1,0 +1,62 @@
+
+canvas,#home{
+	display:none;
+	min-width: 950px;
+	min-height:700px;
+}
+#home{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: black;
+}
+
+img{
+	display:none;
+	position:absolute;
+	display:none;
+
+}
+.button-home{
+	position:absolute;
+	display:block;
+	width:140px;
+	height:140px;
+	color:white;
+	border:none;
+	outline:none;
+	border-radius: 50%;
+	display:none;
+}
+#about-me-button{
+
+	top:500px;
+	left:300px;
+}
+#contact-info-button{
+	top:500px;
+	left:450px;
+}
+#offer-button{
+	top:500px;
+	left:600px;
+}
+#work-experience-button{
+	top:500px;
+	left:750px;
+}
+#logo{
+	position:absolute;
+	width:300px;
+	height:67px;
+	top:13%;
+	left:25%;
+	display:none;
+}
+#about-me{
+	height:500px;
+	width:100%;
+	background-color: yellow;
+	z-index: 2;
+	display:none;
+}
